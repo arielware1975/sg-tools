@@ -25,7 +25,6 @@ let getNominalRateChangeRateDaysExpressed = (nominalRate, daysRateExpressed, cap
     return rate;
 }
 
-
 console.log((getEffectiveRateFromNominalRate(0.12, 360, 60)).toFixed(2));
 
 console.log((getNominalRateChangeRateDaysExpressed(0.12, 360, 360)).toFixed(2));
